@@ -831,7 +831,7 @@ h3 {
     width: 100%;
 }
 
-.formbutton:hover {
+.form-button:hover {
     background-color: rgb(245, 210, 139);
     cursor: pointer;
 }
