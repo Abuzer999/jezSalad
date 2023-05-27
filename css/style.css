@@ -453,7 +453,7 @@ h3 {
 .about__title, .about__text {
     width: 500px;
     font-weight: 600;
-    font-size: 48px;
+    font-size: clamp(1.125rem, calc(-1.091rem + 5.45vw), 3rem);
     line-height: 64px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #333333;
@@ -464,7 +464,7 @@ h3 {
     font-size: 16px;
     line-height: 150%;
     color: #999999;
-    width: 400px
+    width: clamp(20.688rem, calc(15.591rem + 12.55vw), 25rem);
 }
 
 .buttoni {
